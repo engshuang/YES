@@ -14,7 +14,7 @@ import com.fasterxml.jackson.databind.SerializerProvider;
 import net.yes.exception.SysException;
 
 /**
- * （这里一句话描述这是一个什么样的类，格式：本类是XXXX。）
+ * 本类是json工具类
  * 
  * @author ChenYingshuang
  * @version Ver 1.0 2014年12月31日 创建
