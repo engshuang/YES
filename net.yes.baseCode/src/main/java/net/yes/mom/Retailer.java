@@ -35,7 +35,7 @@ public class Retailer implements Runnable {
 	private String url;
 	private String user;
 	private String password;
-
+	
 	public Retailer(String url, String user, String password) {
 		this.url = url;
 		this.user = user;
