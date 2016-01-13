@@ -24,6 +24,16 @@
 			<groupId>commons-httpclient</groupId>
 			<artifactId>commons-httpclient</artifactId>
 			<version>3.1</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>commons-logging</artifactId>
+					<groupId>commons-logging</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>commons-codec</artifactId>
+					<groupId>commons-codec</groupId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>commons-lang</groupId>
@@ -49,6 +59,16 @@
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
 			<version>2.1.2</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>com.fasterxml.jackson.core</artifactId>
+					<groupId>jackson-annotations</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>com.fasterxml.jackson.core</artifactId>
+					<groupId>jackson-core</groupId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>log4j</groupId>
@@ -74,6 +94,7 @@
 			<groupId>org.apache.activemq</groupId>
 			<artifactId>activemq-core</artifactId>
 			<version>5.5.1</version>
+			<scope>provided</scope>
 		</dependency>
 
 	</dependencies>
