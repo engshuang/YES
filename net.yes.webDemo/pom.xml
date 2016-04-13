@@ -10,7 +10,6 @@
 	</parent>
 	<groupId>com.yes</groupId>
 	<artifactId>net.yes.webDemo</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>net.yes.webDemo Maven Webapp</name>
 	<url>http://maven.apache.org</url>
