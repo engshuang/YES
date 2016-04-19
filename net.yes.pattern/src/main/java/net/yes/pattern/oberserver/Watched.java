@@ -1,4 +1,4 @@
-package net.yes.pattern;
+package net.yes.pattern.oberserver;
 
 public interface Watched {
 
