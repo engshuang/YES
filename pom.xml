@@ -10,5 +10,7 @@
   	<module>net.yes.baseCode</module>
   	<module>net.yes.webDemo</module>
     <module>net.yes.pattern</module>
+    <module>net.yes.boot.demo</module>
+    <module>net.yes.springboot.demo</module>
   </modules>
 </project>
